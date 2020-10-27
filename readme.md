@@ -1,8 +1,3 @@
-
-# Not working!!!
-
-
-
 # OpenCore-ASRock-Z490M-ITX-ac
 ## Hardware List 
 
