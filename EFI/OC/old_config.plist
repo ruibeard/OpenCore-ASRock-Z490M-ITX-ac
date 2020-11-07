@@ -204,7 +204,7 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>BwCbPg==</data>
 				<key>device-id</key>
-				<data>yJsAAA==</data>
+				<data>kj4AAA==</data>
 				<key>framebuffer-con0-busid</key>
 				<data>AgAAAA==</data>
 				<key>framebuffer-con0-enable</key>
@@ -836,7 +836,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=3 -wegnoegpu igfxonln=1</string>
+				<string>keepsyms=1 debug=0x100 alcid=3 -wegnoegpu</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>

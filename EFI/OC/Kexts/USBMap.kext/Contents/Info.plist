@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
+	<string>v1.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Headsoft.USBPorts</string>
+	<string>com.corpnewt.USBMap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBPorts</string>
+	<string>USBMap</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -30,22 +30,12 @@
 			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
 			<string>XHC</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x06ed8086</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleIntelCNLUSBXHCI</string>
+			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
+				<key>kUSBMuxEnabled</key>
+				<true/>
 				<key>port-count</key>
 				<data>
 				FgAAAA==
@@ -55,9 +45,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS01</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -66,9 +54,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS02</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -77,9 +63,7 @@
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS03</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -88,9 +72,7 @@
 					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS04</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -99,9 +81,7 @@
 					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS05</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BQAAAA==
@@ -110,42 +90,34 @@
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS06</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
 						</data>
 					</dict>
-					<key>HS09</key>
+					<key>HS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>10</integer>
-						<key>name</key>
-						<string>HS09</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						CQAAAA==
 						</data>
 					</dict>
-					<key>HS10</key>
+					<key>HS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>name</key>
-						<string>HS10</string>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						CgAAAA==
 						</data>
 					</dict>
-					<key>HS14</key>
+					<key>HS09</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HS14</string>
 						<key>port</key>
 						<data>
 						DgAAAA==
@@ -154,9 +126,7 @@
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>name</key>
-						<string>SS01</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						EQAAAA==
@@ -165,9 +135,7 @@
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>SS02</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						EgAAAA==
@@ -176,9 +144,7 @@
 					<key>SS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>name</key>
-						<string>SS03</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						EwAAAA==
@@ -187,9 +153,7 @@
 					<key>SS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>SS04</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						FAAAAA==
@@ -198,9 +162,7 @@
 					<key>SS05</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>10</integer>
-						<key>name</key>
-						<string>SS05</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						FQAAAA==
@@ -209,9 +171,7 @@
 					<key>SS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>10</integer>
-						<key>name</key>
-						<string>SS06</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						FgAAAA==

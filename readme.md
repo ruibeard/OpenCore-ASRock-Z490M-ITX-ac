@@ -1,4 +1,13 @@
 # OpenCore-ASRock-Z490M-ITX-ac
+
+## Working:
+- Bluetooth
+- Wifi
+
+## Software 
+ - OpenCore 0.6.2
+
+
 ## Hardware List 
 
 - ASRock-Z490M-ITX-ac
