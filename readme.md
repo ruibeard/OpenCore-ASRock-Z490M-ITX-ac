@@ -10,7 +10,7 @@
 
 
 ## Not Tested 
-- DisplayPort - I no monitor yet to test it. 
+- DisplayPort - I have no monitor yet to test it. 
 - On-Board Audio. It is detected but never connected anything there to make sure. (only use Bluetooth headphones)
 - Well I have no ideia if iMessage and those sort of things are working because I dont use them.
 - dGPU as I dont use any. 
