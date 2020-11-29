@@ -10,8 +10,8 @@
 
 
 ## Not Tested 
-- DisplayPort - I have no monitor yet to test it. 
-- On-Board Audio. It is detected but never connected anything there to make sure. (only use Bluetooth headphones)
+- ~~DisplayPort - I have no monitor yet to test it.~~ it works :)
+- ~~On-Board Audio. It is detected but never connected anything there to make sure. (only use Bluetooth headphones)~~ It works :)
 - Well I have no ideia if iMessage and those sort of things are working because I dont use them.
 - dGPU as I dont use any. 
 - USB Type-C port speed, works fine with an Type-A to Type-C adapter though. 
@@ -19,7 +19,7 @@
 
 ## Software 
  - OpenCore 0.6.3
- - MacOS Catalina 10.15.7
+ - MacOS Big Sur 11.0.1 (20B29)
  - SMBios: IMac20,1 (opencore recomendation for comet lake)
  
 ## Kexts
@@ -34,5 +34,5 @@
 - Wifi /BT BCM9460CS2 + M.2 key E adapter 
 - GPU: iGPU Intel 630
 
-
-Anyway, everything I need for my day-to-day work is working properly. 
+## Update to Big Sur.
+I downloaded the full installation with the gibmacos to prepare an usb  drive just in case. In the end just opened with installer from within Catalina and followed the steps, 35min later averything was working perfectly. No need to do any change.
