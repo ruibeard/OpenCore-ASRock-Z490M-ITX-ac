@@ -16,19 +16,18 @@ This table can give you an idea, but for me it was. At least for the time being
 - Sleep/awake
 - Bluetooth
 - Wifi with BCM9460CS2
-- HDMI PORT
+- HDMI PORT 
+-HDMI - DP Audio
 - DP PORT
 - On-Board Rear Audio
-
-## Not Working
-- HDMI audio from the iGPU - no clue how to make it work, if you figure out please let me know :)
-
+ 
 ## Not Tested
 
 - Well I have no ideia if iMessage and those sort of things are working because I dont use them.
 - dGPU as I dont use any.
 - USB Type-C port speed, works fine with an Type-A to Type-C adapter though.
 - Front panel audio
+
 ## Software
 
 - OpenCore 0.6.3
@@ -49,8 +48,5 @@ This table can give you an idea, but for me it was. At least for the time being
 - Wifi Adapter [M.2 key E adapter](https://www.amazon.co.uk/gp/product/B07G2Z2SZ6/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 
 - GPU: iGPU Intel 630
-
-## Update to Big Sur.
-
-I downloaded the full installation with the gibmacos to prepare an usb drive just in case. In the end just opened with installer from within Catalina and followed the steps, 35min later everything was working perfectly. No need to do any change.
+ 
 
