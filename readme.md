@@ -1,37 +1,28 @@
 # OpenCore-ASRock-Z490M-ITX-ac
-### 2+ Month review
- - working everyday without any problems.
- - Put it to sleep eveyday it wakes up next morning.
- - Never crashed (yet :)
- - It works just fine
-
- Was it worth it compared to buying a normal Apple device?
-This table can give you an idea, but for me it was. At least for the time being
-|   Device   |        Specs        | Geekbench  MultiCore |  Price  |
-|:----------:|:-------------------:|:--------------------:|:-------:|
-|  I5 10600  | 500GB NVME 16GB RAM |         6269         |  600GBP |
-| M1 MacMini | 512GB NVME 16GB RAM |         7385         | 1099GBP |
 
 ## Working:
+
 - Sleep/awake
 - Bluetooth
 - Wifi with BCM9460CS2
-- HDMI PORT 
--HDMI - DP Audio
+- HDMI PORT
 - DP PORT
 - On-Board Rear Audio
- 
+
+## NOT working
+
+- HDMI - DP Audio
+
 ## Not Tested
 
-- Well I have no ideia if iMessage and those sort of things are working because I dont use them.
 - dGPU as I dont use any.
 - USB Type-C port speed, works fine with an Type-A to Type-C adapter though.
 - Front panel audio
 
 ## Software
 
-- OpenCore 0.6.3
-- MacOS Big Sur 11.0.1 (20B29)
+- OpenCore 0.6.7
+- MacOS Big Sur
 - SMBios: IMac20,1 (opencore recomendation for comet lake)
 
 ## Kexts
@@ -48,5 +39,3 @@ This table can give you an idea, but for me it was. At least for the time being
 - Wifi Adapter [M.2 key E adapter](https://www.amazon.co.uk/gp/product/B07G2Z2SZ6/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 
 - GPU: iGPU Intel 630
- 
-
